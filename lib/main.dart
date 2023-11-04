@@ -6,6 +6,7 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
+import 'secret.dart';
 
 import 'package:http/http.dart' as http;
 import 'dart:ui';
@@ -56,8 +57,8 @@ Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://kwypawgdpzmezidelkvo.supabase.co',
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3eXBhd2dkcHptZXppZGVsa3ZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODgwMTI5MjMsImV4cCI6MjAwMzU4ODkyM30.NXeWOn88TBg4bLDQzJUfVVn85t5AVVt0JVP-jCgRY_M',
+    url: Secret.supabaseUrl,
+    anonKey: Secret.supabaseAnonKey,
   );
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
