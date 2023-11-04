@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>449880899532-fo3m7sh6a3831807ikk46ji3f374pc93.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.449880899532-fo3m7sh6a3831807ikk46ji3f374pc93</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJ377OO4hd4D7a6ymnbMHDZMSmEj-7NuE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>449880899532</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.reearth</string>
+	<key>PROJECT_ID</key>
+	<string>reearth-1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reearth-1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:449880899532:ios:9938f0284e9bab2654a769</string>
+</dict>
+</plist>
