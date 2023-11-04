@@ -1,6 +1,6 @@
-# ReEarth: an All in One EcoSolution
+<h1 style='text-align:center'>ReEarth: an All in One EcoSolution </h1>
 
-![ReEarth Logo](https://ibb.co/n84KRXF)
+<img src="./assets/backgrounds/Slide%2016_9%20-%202.png"/>
 
 ## Introduction
 
