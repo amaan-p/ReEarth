@@ -12,3 +12,4 @@ key.properties
 **/*.keystore
 **/*.jks
 lib/secret.dart
+app/google-services.json
