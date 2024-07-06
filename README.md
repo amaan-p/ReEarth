@@ -37,9 +37,9 @@ To get started with ReEarth, follow these steps:
 
    ReEarth utilizes Firebase and Supabase for various functionalities, including database operations. Follow these steps to configure the app with your own API keys:
 
-   - Replace the Firebase API keys in your project's configuration files (`google-services.json` for Android or `GoogleService-Info.plist` for iOS) with your own Firebase project credentials.
+   - Replace the Firebase API keys in your project's configuration files (`google-services.json` for Android or `GoogleService-Info.plist` for iOS) with your own Firebase project credentials also create your own `firebase-options` file .
 
-   - For Supabase, replace the Supabase API keys and endpoints in the project's configuration files (`config.dart`, etc.) with your Supabase project credentials. Ensure that your Supabase project is correctly set up with PostgreSQL for database operations.
+   - For Supabase, create  the Supabase API keys and endpoints in the `secret.dart` with your Supabase project credentials. Ensure that your Supabase project is correctly set up with PostgreSQL for database operations.
 
 4. **Run Using Android IDE**
 
