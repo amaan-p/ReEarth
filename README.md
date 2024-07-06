@@ -33,10 +33,20 @@ To get started with ReEarth, follow these steps:
    ```bash
    cd ReEarth
 
-3.Run using Android IDE
+3. **Setting Up Firebase and Supabase API Keys**
 
+   ReEarth utilizes Firebase and Supabase for various functionalities, including database operations. Follow these steps to configure the app with your own API keys:
+
+   - Replace the Firebase API keys in your project's configuration files (`google-services.json` for Android or `GoogleService-Info.plist` for iOS) with your own Firebase project credentials.
+
+   - For Supabase, replace the Supabase API keys and endpoints in the project's configuration files (`config.dart`, etc.) with your Supabase project credentials. Ensure that your Supabase project is correctly set up with PostgreSQL for database operations.
+
+4. **Run Using Android IDE**
+
+   Ensure you have Android Studio or another preferred Android IDE installed. Open the project in your IDE and run the app on an emulator or physical device.
 
 ## Contributing
+
 We welcome contributions from the community! To contribute to ReEarth, follow these steps:
 
 - Fork the repository.
@@ -44,7 +54,7 @@ We welcome contributions from the community! To contribute to ReEarth, follow th
 - Make your changes and commit them with clear messages.
 - Push your changes to your fork.
 - Submit a pull request to the main repository.
-  
-License
-This project is licensed under the MIT License.
 
+## License
+
+This project is licensed under the MIT License.
